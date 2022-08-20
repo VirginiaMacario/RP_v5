@@ -1,0 +1,5 @@
+RewriteEngine On
+RewriteBase /RP_v2/folder/
+
+RewriteRule ^(.*)/(.*)/ grado.php?codgra=$1&nomgra=$2 [L]
+RewriteRule ^(.*)/ grado.php?codgra=$1 [L]
